@@ -1,7 +1,10 @@
+:root {
+  --primary-color: blue;
+  --gradient: radial-gradient(blue;pink);
+}
 body {
-  background: blueviolet;
+  background: var(--gradient);
 }
 h1 {
-  color: blue;
-  text-align: center;
+  color: var(--secondary-color);
 }
