@@ -1,10 +1,14 @@
-:root {
-  --primary-color: blue;
-  --gradient: radial-gradient(blue;pink);
-}
 body {
-  background: var(--gradient);
+  background: burlywood;
 }
-h1 {
-  color: var(--secondary-color);
+h1,
+p,
+footer {
+  text-align: center;
+}
+
+.croissant-photo {
+  border-radius: 10px;
+  display: block;
+  margin: 30px auto;
 }
